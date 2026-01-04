@@ -33,14 +33,14 @@
   inset:0;
   z-index:-1;
   pointer-events:none;
-  background:url("bgcathd.jpg") center/cover no-repeat;
+  background:url("bg/bgcathd.jpg") center/cover no-repeat;
 }
 
 .c::before{
   content:"";
   position:absolute;
   inset:0;
-  background:url("finalhd.jpg") center/cover no-repeat;
+  background:url("bg/finalhd.jpg") center/cover no-repeat;
   -webkit-mask:radial-gradient(
     circle 700px at var(--x,50%) var(--y,50%),
     transparent 0,
@@ -146,3 +146,4 @@ onmousemove=e=>{
   c.style.setProperty("--y",e.clientY/innerHeight*100+"%");
 }
 </script>
+
